@@ -1,0 +1,417 @@
+﻿{
+    "url":  "https://kotwalsaib4-wq.github.io/google/",
+    "findings":  {
+                     "dns":  {
+                                 "domain":  "kotwalsaib4-wq.github.io",
+                                 "ipv4":  [
+                                              "185.199.108.153",
+                                              "185.199.109.153",
+                                              "185.199.110.153",
+                                              "185.199.111.153"
+                                          ],
+                                 "ipv6":  [
+                                              "2606:50c0:8001::153",
+                                              "2606:50c0:8003::153",
+                                              "2606:50c0:8002::153",
+                                              "2606:50c0:8000::153"
+                                          ],
+                                 "nameServers":  null
+                             },
+                     "whois":  {
+                                   "domain":  "kotwalsaib4-wq.github.io",
+                                   "creationDate":  "2013-03-08T14:41:10.000Z",
+                                   "expireDate":  "2027-03-07T19:00:00.000Z",
+                                   "registerName":  [
+                                                        "Markmonitor Inc.",
+                                                        "Markmonitor Inc."
+                                                    ],
+                                   "nameServers":  [
+                                                       "dns1.p05.nsone.net",
+                                                       "dns2.p05.nsone.net",
+                                                       "dns3.p05.nsone.net",
+                                                       "ns-1622.awsdns-10.co.uk",
+                                                       "ns-692.awsdns-22.net"
+                                                   ],
+                                   "status":  [
+                                                  "clientUpdateProhibited",
+                                                  "clientTransferProhibited",
+                                                  "clientDeleteProhibited"
+                                              ],
+                                   "domainAge":  13.720830774575088,
+                                   "daysSinceRegistration":  5008
+                               },
+                     "html":  {
+                                  "success":  true,
+                                  "threatFound":  true,
+                                  "riskScore":  100,
+                                  "findings":  [
+                                                   "Critical Brand Mismatch: Brand token identity [GOOGLE] is referenced, but host platform domain is unrelated.",
+                                                   "Malicious JavaScript Heuristic: Global keypress interception hooks detected via raw script scanning.",
+                                                   "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                                                   "Anomalous Resource Sourcing: 100% of primary page assets load from external domains."
+                                               ],
+                                  "signals":  [
+                                                  {
+                                                      "id":  "HTML_BRAND_MISMATCH",
+                                                      "severity":  "critical",
+                                                      "weight":  40,
+                                                      "message":  "Critical Brand Mismatch: Brand token identity [GOOGLE] is referenced, but host platform domain is unrelated."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_KEYLOGGER",
+                                                      "severity":  "high",
+                                                      "weight":  25,
+                                                      "message":  "Malicious JavaScript Heuristic: Global keypress interception hooks detected via raw script scanning."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_JS_REDIRECT",
+                                                      "severity":  "medium",
+                                                      "weight":  25,
+                                                      "message":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_EXTERNAL_ASSETS",
+                                                      "severity":  "low",
+                                                      "weight":  20,
+                                                      "message":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains."
+                                                  }
+                                              ]
+                              },
+                     "virustotal":  {
+                                        "success":  true,
+                                        "threatFound":  true,
+                                        "positives":  11,
+                                        "totalScanners":  91,
+                                        "reputation":  0,
+                                        "findings":  "Global Threat Alert: Flagged malicious by 11 engine vendors out of 91 audits."
+                                    },
+                     "lexical":  {
+                                     "url":  "https://kotwalsaib4-wq.github.io/google/",
+                                     "success":  true,
+                                     "correlationKey":  "kotwalsaib4-wq.github.io",
+                                     "urlMetadata":  {
+                                                         "protocol":  "https:",
+                                                         "hostname":  "kotwalsaib4-wq.github.io",
+                                                         "registeredDomain":  "kotwalsaib4-wq.github.io",
+                                                         "subdomain":  "",
+                                                         "tld":  "github.io",
+                                                         "port":  "443",
+                                                         "explicitPort":  "",
+                                                         "isIpHost":  false,
+                                                         "pathname":  "/google/",
+                                                         "urlLength":  40,
+                                                         "normalizedInput":  "https://kotwalsaib4-wq.github.io/google/"
+                                                     },
+                                     "findings":  [
+                                                      "Elevated Domain Randomness: The domain label \"kotwalsaib4-wq\" has unusually high character randomness (entropy ≈ 3.52 bits/char)."
+                                                  ],
+                                     "observations":  [
+                                                          {
+                                                              "observationId":  "HIGH_ENTROPY",
+                                                              "category":  "HOST_STRUCTURE",
+                                                              "data":  {
+                                                                           "label":  "kotwalsaib4-wq",
+                                                                           "entropyBitsPerChar":  3.52
+                                                                       },
+                                                              "evidence":  [
+                                                                               "kotwalsaib4-wq"
+                                                                           ],
+                                                              "confidence":  0.5,
+                                                              "meta":  {
+                                                                           "sourceRule":  "HIGH_ENTROPY",
+                                                                           "ruleVersion":  "2.0.0"
+                                                                       }
+                                                          }
+                                                      ],
+                                     "fullFindings":  [
+                                                          {
+                                                              "observationId":  "HIGH_ENTROPY",
+                                                              "title":  "Elevated Domain Randomness",
+                                                              "description":  "The domain label \"kotwalsaib4-wq\" has unusually high character randomness (entropy ≈ 3.52 bits/char).",
+                                                              "recommendation":  "Not conclusive by itself — weigh it against the other findings.",
+                                                              "suggestedSeverity":  "low",
+                                                              "references":  [
+
+                                                                             ],
+                                                              "confidence":  0.5,
+                                                              "evidence":  [
+                                                                               "kotwalsaib4-wq"
+                                                                           ],
+                                                              "suppressed":  false,
+                                                              "suppressedBy":  null
+                                                          }
+                                                      ]
+                                 }
+                 },
+    "correlations":  [
+                         {
+                             "id":  "CORR_BRAND_IMPERSONATION",
+                             "title":  "Deceptive Brand Impersonation (GOOGLE)",
+                             "severity":  "CRITICAL",
+                             "confidence":  "HIGH",
+                             "evidence":  [
+                                              "Visual or textual context implies identity representation of brand asset groups.",
+                                              "Outbound domain parameters point back to independent host framework: \u0027Markmonitor Inc.,Markmonitor Inc.\u0027."
+                                          ]
+                         }
+                     ],
+    "features":  [
+                     {
+                         "source":  "correlation",
+                         "id":  "CORR_BRAND_IMPERSONATION",
+                         "title":  "Deceptive Brand Impersonation (GOOGLE)",
+                         "severity":  "CRITICAL",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+                                          "Visual or textual context implies identity representation of brand asset groups.",
+                                          "Outbound domain parameters point back to independent host framework: \u0027Markmonitor Inc.,Markmonitor Inc.\u0027."
+                                      ],
+                         "weight":  45.5,
+                         "contribution":  45.5,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_BRAND_MISMATCH",
+                         "title":  "Critical Brand Mismatch: Brand token identity [GOOGLE] is referenced, but host platform domain is unrelated.",
+                         "severity":  "CRITICAL",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  40,
+                         "contribution":  40,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_KEYLOGGER",
+                         "title":  "Malicious JavaScript Heuristic: Global keypress interception hooks detected via raw script scanning.",
+                         "severity":  "HIGH",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  25,
+                         "contribution":  25,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_JS_REDIRECT",
+                         "title":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                         "severity":  "MEDIUM",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  25,
+                         "contribution":  25,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_EXTERNAL_ASSETS",
+                         "title":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains.",
+                         "severity":  "LOW",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  20,
+                         "contribution":  20,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "virustotal",
+                         "id":  "VT_POSITIVE_RATIO",
+                         "title":  "11/91 security vendors flagged this domain",
+                         "severity":  "MEDIUM",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+                                          "11 of 91 engines returned a positive verdict."
+                                      ],
+                         "weight":  12.1,
+                         "contribution":  12.1,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "lexical",
+                         "id":  "HIGH_ENTROPY",
+                         "title":  "Elevated Domain Randomness",
+                         "description":  "The domain label \"kotwalsaib4-wq\" has unusually high character randomness (entropy ≈ 3.52 bits/char).",
+                         "severity":  "LOW",
+                         "confidence":  0.5,
+                         "evidence":  [
+
+                                      ],
+                         "weight":  2,
+                         "contribution":  2,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     }
+                 ],
+    "featureVector":  {
+                          "domain_age_days":  5008,
+                          "has_whois":  1,
+                          "domain_age_is_new":  0,
+                          "vt_total_scanners":  91,
+                          "vt_positives":  11,
+                          "vt_positive_ratio":  0.1209,
+                          "lexical_finding_count":  1,
+                          "has_brand_impersonation":  0,
+                          "has_typosquat":  0,
+                          "has_homograph":  0,
+                          "has_punycode":  0,
+                          "has_ip_host":  0,
+                          "has_shortener":  0,
+                          "has_suspicious_keyword":  0,
+                          "has_at_userinfo":  0,
+                          "has_dangerous_protocol":  0,
+                          "url_length":  40,
+                          "brand_in_host":  0,
+                          "is_legit_major_domain":  0,
+                          "has_https":  1,
+                          "tld_risk":  0,
+                          "html_risk_score":  100,
+                          "html_signal_count":  4,
+                          "html_has_password_field":  0,
+                          "html_has_external_form":  0,
+                          "html_has_brand_mismatch":  1,
+                          "html_has_obfuscation":  0,
+                          "correlation_count":  1,
+                          "has_dynamic_dns":  0
+                      },
+    "scoring":  {
+                    "mode":  "hybrid",
+                    "score":  100,
+                    "risk":  "CRITICAL",
+                    "heuristicScore":  100,
+                    "mlScore":  53.5,
+                    "mlProbability":  0.5349429082298295,
+                    "mlWeight":  0.5
+                },
+    "score":  100,
+    "risk":  "CRITICAL",
+    "explanation":  {
+                        "url":  "https://kotwalsaib4-wq.github.io/google/",
+                        "verdict":  {
+                                        "score":  100,
+                                        "riskLevel":  "CRITICAL",
+                                        "headline":  "This URL shows strong, corroborated signs of being malicious.",
+                                        "recommendedAction":  "Do not enter any credentials or personal information. Do not proceed.",
+                                        "confidence":  "HIGH",
+                                        "justification":  "Score driven primarily by Deceptive Brand Impersonation (GOOGLE) (+45.5 risk points), supported by 6 other security observations.",
+                                        "totalIndicators":  7
+                                    },
+                        "reasons":  [
+                                        {
+                                            "source":  "correlation",
+                                            "severity":  "CRITICAL",
+                                            "confidence":  "HIGH",
+                                            "title":  "Deceptive Brand Impersonation (GOOGLE)",
+                                            "evidence":  [
+                                                             "Visual or textual context implies identity representation of brand asset groups.",
+                                                             "Outbound domain parameters point back to independent host framework: \u0027Markmonitor Inc.,Markmonitor Inc.\u0027."
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "virustotal",
+                                            "severity":  "CRITICAL",
+                                            "confidence":  "HIGH",
+                                            "title":  "11 of 91 security vendors flagged this URL",
+                                            "evidence":  [
+                                                             "Global Threat Alert: Flagged malicious by 11 engine vendors out of 91 audits."
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Critical Brand Mismatch: Brand token identity [GOOGLE] is referenced, but host platform domain is unrelated.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Malicious JavaScript Heuristic: Global keypress interception hooks detected via raw script scanning.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "url_lexical",
+                                            "severity":  "LOW",
+                                            "confidence":  "LOW",
+                                            "title":  "Elevated Domain Randomness",
+                                            "evidence":  [
+                                                             "The domain label \"kotwalsaib4-wq\" has unusually high character randomness (entropy ≈ 3.52 bits/char)."
+                                                         ],
+                                            "references":  [
+
+                                                           ]
+                                        }
+                                    ],
+                        "sourceSummary":  {
+                                              "dns":  {
+                                                          "checked":  true,
+                                                          "ipAddress":  "185.199.108.153"
+                                                      },
+                                              "whois":  {
+                                                            "checked":  true,
+                                                            "registrar":  [
+                                                                              "Markmonitor Inc.",
+                                                                              "Markmonitor Inc."
+                                                                          ],
+                                                            "domainAgeDays":  5008,
+                                                            "ageDataReliable":  true
+                                                        },
+                                              "html":  {
+                                                           "checked":  true,
+                                                           "riskScore":  100,
+                                                           "threatFound":  true
+                                                       },
+                                              "virustotal":  {
+                                                                 "checked":  true,
+                                                                 "positives":  11,
+                                                                 "totalScanners":  91
+                                                             },
+                                              "urlLexical":  {
+                                                                 "checked":  true,
+                                                                 "observationCount":  1,
+                                                                 "registeredDomain":  "kotwalsaib4-wq.github.io"
+                                                             }
+                                          },
+                        "generatedAt":  "2026-11-23T17:09:52.725Z"
+                    },
+    "id":  "9da03d7b-1dc4-4c5e-9c07-a9507fbcdfa6",
+    "isFavorite":  false,
+    "timestamp":  "2026-11-23T17:09:52.729Z"
+}

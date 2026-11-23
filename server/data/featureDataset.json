@@ -1,0 +1,1972 @@
+[
+  {
+    "id": "benign-github",
+    "url": "https://github.com",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 6500,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 18,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-wikipedia",
+    "url": "https://en.wikipedia.org",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 8000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 24,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-python",
+    "url": "https://www.python.org",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 7000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 22,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-mozilla",
+    "url": "https://developer.mozilla.org",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 6000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 29,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-cloudflare",
+    "url": "https://www.cloudflare.com",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 9000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 26,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-bbc",
+    "url": "https://www.bbc.com",
+    "label": "benign",
+    "score": 23,
+    "risk": "MEDIUM",
+    "featureVector": {
+      "domain_age_days": 9000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 1,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 1,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 19,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "BRAND_TYPOSQUAT",
+        "source": "lexical",
+        "contribution": 23.1
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "benign-stackoverflow",
+    "url": "https://stackoverflow.com",
+    "label": "benign",
+    "score": 2,
+    "risk": "LOW",
+    "featureVector": {
+      "domain_age_days": 8000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 1,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 25,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "benign-react",
+    "url": "https://react.dev",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 1500,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 17,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-apple",
+    "url": "https://www.apple.com",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 9000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 21,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-microsoft",
+    "url": "https://www.microsoft.com",
+    "label": "benign",
+    "score": 0,
+    "risk": "SAFE",
+    "featureVector": {
+      "domain_age_days": 9000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 25,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 1,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [],
+    "correlations": []
+  },
+  {
+    "id": "benign-vercel",
+    "url": "https://myportfolio.vercel.app",
+    "label": "benign",
+    "score": 13,
+    "risk": "LOW",
+    "featureVector": {
+      "domain_age_days": 5,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 30,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 12.5
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "benign-githubpages",
+    "url": "https://someone.github.io",
+    "label": "benign",
+    "score": 13,
+    "risk": "LOW",
+    "featureVector": {
+      "domain_age_days": 5,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 0,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 25,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 12.5
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "benign-shortener",
+    "url": "https://bit.ly/spring-docs",
+    "label": "benign",
+    "score": 12,
+    "risk": "LOW",
+    "featureVector": {
+      "domain_age_days": 4000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 1,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 1,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 26,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "URL_SHORTENER",
+        "source": "lexical",
+        "contribution": 12
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "phish-paypa1",
+    "url": "https://paypa1-login-verify.xyz",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 3,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 12,
+      "vt_positive_ratio": 0.1333,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 1,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 31,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 1,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_TYPOSQUAT",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 13.3
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-netflix-billing",
+    "url": "https://netflix-billing-update.com",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 2,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 20,
+      "vt_positive_ratio": 0.2222,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 34,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 22.2
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-apple-id",
+    "url": "https://secure-apple-id-login.com",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 5,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 8,
+      "vt_positive_ratio": 0.0889,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 33,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 8.9
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-microsoft365",
+    "url": "https://secure-login-microsoft365.com",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 1,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 18,
+      "vt_positive_ratio": 0.2,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 37,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 3,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "CORR_HIGH_RISK_PHISHING_CANDIDATE",
+        "source": "correlation",
+        "contribution": 52
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 20
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+      "CORR_HIGH_RISK_PHISHING_CANDIDATE"
+    ]
+  },
+  {
+    "id": "phish-amazon-otp",
+    "url": "https://amazon-order-otp.xyz",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 2,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 15,
+      "vt_positive_ratio": 0.1667,
+      "lexical_finding_count": 1,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 28,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 1,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 16.7
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-chase-alert",
+    "url": "https://chase-bank-alert.com",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 7,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 6,
+      "vt_positive_ratio": 0.0667,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 28,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 3,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "CORR_HIGH_RISK_PHISHING_CANDIDATE",
+        "source": "correlation",
+        "contribution": 52
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 9
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 6.7
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+      "CORR_HIGH_RISK_PHISHING_CANDIDATE"
+    ]
+  },
+  {
+    "id": "phish-binance-connect",
+    "url": "https://binance-wallet-connect.app",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 5,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 9,
+      "vt_positive_ratio": 0.1,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 34,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 10
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 9
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-google-security",
+    "url": "https://account-google-security.tk",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 6,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 3,
+      "vt_positive_ratio": 0.0333,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 34,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 1,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 3,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "CORR_HIGH_RISK_PHISHING_CANDIDATE",
+        "source": "correlation",
+        "contribution": 52
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 3.3
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+      "CORR_HIGH_RISK_PHISHING_CANDIDATE"
+    ]
+  },
+  {
+    "id": "phish-free-netflix",
+    "url": "https://free-netflix-account.xyz",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 3,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 10,
+      "vt_positive_ratio": 0.1111,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 32,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 1,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 11.1
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 9
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-homograph",
+    "url": "https://mïcrosoft-verify.com",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 4,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 5,
+      "vt_positive_ratio": 0.0556,
+      "lexical_finding_count": 5,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 1,
+      "has_homograph": 0,
+      "has_punycode": 1,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 28,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_TYPOSQUAT",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "PUNYCODE",
+        "source": "lexical",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "UNICODE_HOSTNAME",
+        "source": "lexical",
+        "contribution": 12
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 9
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 5.6
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-duckdns",
+    "url": "https://paypal-verify.duckdns.org",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 1,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 33,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 3,
+      "has_dynamic_dns": 1
+    },
+    "features": [
+      {
+        "id": "CORR_HIGH_RISK_PHISHING_CANDIDATE",
+        "source": "correlation",
+        "contribution": 52
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "CORR_DYNAMIC_DNS_HOSTING",
+        "source": "correlation",
+        "contribution": 10.8
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 9
+      }
+    ],
+    "correlations": [
+      "CORR_DYNAMIC_DNS_HOSTING",
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_HIGH_RISK_PHISHING_CANDIDATE"
+    ]
+  },
+  {
+    "id": "phish-ip-host",
+    "url": "http://185.220.101.4/login",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 10,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 30,
+      "vt_positive_ratio": 0.3333,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 1,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 26,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 0,
+      "tld_risk": 0,
+      "html_risk_score": 100,
+      "html_signal_count": 5,
+      "html_has_password_field": 1,
+      "html_has_external_form": 1,
+      "html_has_brand_mismatch": 1,
+      "html_has_obfuscation": 0,
+      "correlation_count": 2,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "CORR_ACTIVE_MALICIOUS_CAMPAIGN",
+        "source": "correlation",
+        "contribution": 70.2
+      },
+      {
+        "id": "HTML_EXTERNAL_FORM",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "HTML_BRAND_MISMATCH",
+        "source": "html",
+        "contribution": 40
+      },
+      {
+        "id": "VT_POSITIVE_RATIO",
+        "source": "virustotal",
+        "contribution": 33.3
+      },
+      {
+        "id": "IP_ADDRESS_HOST",
+        "source": "lexical",
+        "contribution": 27.5
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_PASSWORD_FIELD",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "HTML_SOCIAL_ENGINEERING",
+        "source": "html",
+        "contribution": 25
+      },
+      {
+        "id": "CORR_CREDENTIAL_HARVESTING",
+        "source": "correlation",
+        "contribution": 22
+      },
+      {
+        "id": "HTML_SINGLE_FORM",
+        "source": "html",
+        "contribution": 15
+      },
+      {
+        "id": "INSECURE_PROTOCOL",
+        "source": "lexical",
+        "contribution": 8
+      }
+    ],
+    "correlations": [
+      "CORR_CREDENTIAL_HARVESTING",
+      "CORR_ACTIVE_MALICIOUS_CAMPAIGN"
+    ]
+  },
+  {
+    "id": "phish-cloaked",
+    "url": "https://update-my-security-settings.xyz",
+    "label": "phishing",
+    "score": 100,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 4,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 2,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 39,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 1,
+      "html_risk_score": 95,
+      "html_signal_count": 3,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 1,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "HTML_SUSPICIOUS_EVAL",
+        "source": "html",
+        "contribution": 35
+      },
+      {
+        "id": "HTML_HEX_OBFUSCATION",
+        "source": "html",
+        "contribution": 30
+      },
+      {
+        "id": "HTML_META_REFRESH",
+        "source": "html",
+        "contribution": 30
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "phish-brand-only",
+    "url": "https://apple-support-login.com",
+    "label": "phishing",
+    "score": 77,
+    "risk": "CRITICAL",
+    "featureVector": {
+      "domain_age_days": 2,
+      "has_whois": 1,
+      "domain_age_is_new": 1,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 3,
+      "has_brand_impersonation": 1,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 0,
+      "has_suspicious_keyword": 1,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 31,
+      "brand_in_host": 1,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "BRAND_IMPERSONATION",
+        "source": "lexical",
+        "contribution": 37.8
+      },
+      {
+        "id": "WHOIS_NEW_REGISTRATION",
+        "source": "whois",
+        "contribution": 25
+      },
+      {
+        "id": "SUSPICIOUS_KEYWORDS",
+        "source": "lexical",
+        "contribution": 12.4
+      },
+      {
+        "id": "HIGH_ENTROPY",
+        "source": "lexical",
+        "contribution": 2
+      }
+    ],
+    "correlations": []
+  },
+  {
+    "id": "phish-shortener",
+    "url": "https://bit.ly/3xYzAbc",
+    "label": "phishing",
+    "score": 12,
+    "risk": "LOW",
+    "featureVector": {
+      "domain_age_days": 4000,
+      "has_whois": 1,
+      "domain_age_is_new": 0,
+      "vt_total_scanners": 90,
+      "vt_positives": 0,
+      "vt_positive_ratio": 0,
+      "lexical_finding_count": 1,
+      "has_brand_impersonation": 0,
+      "has_typosquat": 0,
+      "has_homograph": 0,
+      "has_punycode": 0,
+      "has_ip_host": 0,
+      "has_shortener": 1,
+      "has_suspicious_keyword": 0,
+      "has_at_userinfo": 0,
+      "has_dangerous_protocol": 0,
+      "url_length": 22,
+      "brand_in_host": 0,
+      "is_legit_major_domain": 0,
+      "has_https": 1,
+      "tld_risk": 0,
+      "html_risk_score": 0,
+      "html_signal_count": 0,
+      "html_has_password_field": 0,
+      "html_has_external_form": 0,
+      "html_has_brand_mismatch": 0,
+      "html_has_obfuscation": 0,
+      "correlation_count": 0,
+      "has_dynamic_dns": 0
+    },
+    "features": [
+      {
+        "id": "URL_SHORTENER",
+        "source": "lexical",
+        "contribution": 12
+      }
+    ],
+    "correlations": []
+  }
+]

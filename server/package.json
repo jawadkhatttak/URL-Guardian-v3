@@ -1,0 +1,32 @@
+{
+  "name": "url-analysis-engine-server",
+  "version": "3.0.0",
+  "description": "Backend server for the URL Analysis Engine v3 — phishing and threat intelligence pipeline with SQLite persistence.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch --watch-path=src src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "validate": "node src/scripts/validate-engine.js",
+    "evaluate": "node src/scripts/evaluate-engine.js",
+    "train": "node src/scripts/train-model.js",
+    "evaluate:ml": "node src/scripts/evaluate-ml.js"
+  },
+  "keywords": [],
+  "author": "Jawad Khatttak",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "scrapingbee": "^1.7.6"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  }
+}

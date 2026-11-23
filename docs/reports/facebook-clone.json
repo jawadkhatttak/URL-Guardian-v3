@@ -1,0 +1,445 @@
+﻿{
+    "url":  "https://sso-auth.com/E.xjXDniSJ1p63JLY?/facebook_secure_account?id=759347502378427672987349826578129038123807394%22",
+    "findings":  {
+                     "dns":  {
+                                 "domain":  "sso-auth.com",
+                                 "ipv4":  [
+                                              "212.104.128.1",
+                                              "212.104.128.2",
+                                              "212.104.128.0",
+                                              "212.104.128.3"
+                                          ],
+                                 "ipv6":  null,
+                                 "nameServers":  [
+                                                     "georgia.ns.cloudflare.com",
+                                                     "salvador.ns.cloudflare.com"
+                                                 ]
+                             },
+                     "whois":  {
+                                   "domain":  "sso-auth.com",
+                                   "creationDate":  "2025-04-01T06:55:17.000Z",
+                                   "expireDate":  "2027-04-01T06:55:17.000Z",
+                                   "registerName":  "Gandi SAS",
+                                   "nameServers":  [
+                                                       "georgia.ns.cloudflare.com",
+                                                       "salvador.ns.cloudflare.com"
+                                                   ],
+                                   "status":  [
+                                                  "client transfer prohibited"
+                                              ],
+                                   "domainAge":  1.6477446731988838,
+                                   "daysSinceRegistration":  601
+                               },
+                     "html":  {
+                                  "success":  true,
+                                  "threatFound":  true,
+                                  "riskScore":  100,
+                                  "findings":  [
+                                                   "Suspicious structural layout: Page contains exactly one isolated form component.",
+                                                   "Credential Harvest Signal: Target form contains active password fields.",
+                                                   "Critical Brand Mismatch: Brand token identity [FACEBOOK] is referenced, but host platform domain is unrelated.",
+                                                   "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                                                   "Anomalous Resource Sourcing: 100% of primary page assets load from external domains."
+                                               ],
+                                  "signals":  [
+                                                  {
+                                                      "id":  "HTML_SINGLE_FORM",
+                                                      "severity":  "low",
+                                                      "weight":  15,
+                                                      "message":  "Suspicious structural layout: Page contains exactly one isolated form component."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_PASSWORD_FIELD",
+                                                      "severity":  "high",
+                                                      "weight":  25,
+                                                      "message":  "Credential Harvest Signal: Target form contains active password fields."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_BRAND_MISMATCH",
+                                                      "severity":  "critical",
+                                                      "weight":  40,
+                                                      "message":  "Critical Brand Mismatch: Brand token identity [FACEBOOK] is referenced, but host platform domain is unrelated."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_JS_REDIRECT",
+                                                      "severity":  "medium",
+                                                      "weight":  25,
+                                                      "message":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly."
+                                                  },
+                                                  {
+                                                      "id":  "HTML_EXTERNAL_ASSETS",
+                                                      "severity":  "low",
+                                                      "weight":  20,
+                                                      "message":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains."
+                                                  }
+                                              ]
+                              },
+                     "virustotal":  {
+                                        "success":  true,
+                                        "threatFound":  false,
+                                        "status":  "SCAN_QUEUED",
+                                        "positives":  0,
+                                        "totalScanners":  0,
+                                        "findings":  "URL analysis records not found in database. Scan request successfully pushed to background processing queue."
+                                    },
+                     "lexical":  {
+                                     "url":  "https://sso-auth.com/E.xjXDniSJ1p63JLY?/facebook_secure_account?id=759347502378427672987349826578129038123807394%22",
+                                     "success":  true,
+                                     "correlationKey":  "sso-auth.com",
+                                     "urlMetadata":  {
+                                                         "protocol":  "https:",
+                                                         "hostname":  "sso-auth.com",
+                                                         "registeredDomain":  "sso-auth.com",
+                                                         "subdomain":  "",
+                                                         "tld":  "com",
+                                                         "port":  "443",
+                                                         "explicitPort":  "",
+                                                         "isIpHost":  false,
+                                                         "pathname":  "/E.xjXDniSJ1p63JLY",
+                                                         "urlLength":  115,
+                                                         "normalizedInput":  "https://sso-auth.com/E.xjXDniSJ1p63JLY?/facebook_secure_account?id=759347502378427672987349826578129038123807394%22"
+                                                     },
+                                     "findings":  [
+                                                      "Long URL: This URL is 115 characters long, longer than typical for a simple link."
+                                                  ],
+                                     "observations":  [
+                                                          {
+                                                              "observationId":  "LONG_URL",
+                                                              "category":  "HOST_STRUCTURE",
+                                                              "data":  {
+                                                                           "urlLength":  115
+                                                                       },
+                                                              "evidence":  [
+                                                                               "115 characters"
+                                                                           ],
+                                                              "confidence":  1,
+                                                              "meta":  {
+                                                                           "sourceRule":  "LONG_URL",
+                                                                           "ruleVersion":  "2.0.0"
+                                                                       }
+                                                          }
+                                                      ],
+                                     "fullFindings":  [
+                                                          {
+                                                              "observationId":  "LONG_URL",
+                                                              "title":  "Long URL",
+                                                              "description":  "This URL is 115 characters long, longer than typical for a simple link.",
+                                                              "recommendation":  "Inspect the hostname carefully rather than judging the link by its path or query string.",
+                                                              "suggestedSeverity":  "low",
+                                                              "references":  [
+
+                                                                             ],
+                                                              "confidence":  1,
+                                                              "evidence":  [
+                                                                               "115 characters"
+                                                                           ],
+                                                              "suppressed":  false,
+                                                              "suppressedBy":  null
+                                                          }
+                                                      ]
+                                 }
+                 },
+    "correlations":  [
+                         {
+                             "id":  "CORR_CREDENTIAL_HARVESTING",
+                             "title":  "Suspicious Credential Capture Point",
+                             "severity":  "HIGH",
+                             "confidence":  "MEDIUM",
+                             "evidence":  [
+                                              "Page structure isolates user authentication inputs.",
+                                              "Isolated structural elements mimic login behavior layout."
+                                          ]
+                         },
+                         {
+                             "id":  "CORR_BRAND_IMPERSONATION",
+                             "title":  "Deceptive Brand Impersonation (FACEBOOK)",
+                             "severity":  "CRITICAL",
+                             "confidence":  "HIGH",
+                             "evidence":  [
+                                              "Visual or textual context implies identity representation of brand asset groups.",
+                                              "Outbound domain parameters point back to independent host framework: \u0027Gandi SAS\u0027."
+                                          ]
+                         }
+                     ],
+    "features":  [
+                     {
+                         "source":  "correlation",
+                         "id":  "CORR_BRAND_IMPERSONATION",
+                         "title":  "Deceptive Brand Impersonation (FACEBOOK)",
+                         "severity":  "CRITICAL",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+                                          "Visual or textual context implies identity representation of brand asset groups.",
+                                          "Outbound domain parameters point back to independent host framework: \u0027Gandi SAS\u0027."
+                                      ],
+                         "weight":  45.5,
+                         "contribution":  45.5,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_BRAND_MISMATCH",
+                         "title":  "Critical Brand Mismatch: Brand token identity [FACEBOOK] is referenced, but host platform domain is unrelated.",
+                         "severity":  "CRITICAL",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  40,
+                         "contribution":  40,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_PASSWORD_FIELD",
+                         "title":  "Credential Harvest Signal: Target form contains active password fields.",
+                         "severity":  "HIGH",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  25,
+                         "contribution":  25,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_JS_REDIRECT",
+                         "title":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                         "severity":  "MEDIUM",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  25,
+                         "contribution":  25,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "correlation",
+                         "id":  "CORR_CREDENTIAL_HARVESTING",
+                         "title":  "Suspicious Credential Capture Point",
+                         "severity":  "HIGH",
+                         "confidence":  "MEDIUM",
+                         "evidence":  [
+                                          "Page structure isolates user authentication inputs.",
+                                          "Isolated structural elements mimic login behavior layout."
+                                      ],
+                         "weight":  22,
+                         "contribution":  22,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_EXTERNAL_ASSETS",
+                         "title":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains.",
+                         "severity":  "LOW",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  20,
+                         "contribution":  20,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "html",
+                         "id":  "HTML_SINGLE_FORM",
+                         "title":  "Suspicious structural layout: Page contains exactly one isolated form component.",
+                         "severity":  "LOW",
+                         "confidence":  "HIGH",
+                         "evidence":  [
+
+                                      ],
+                         "weight":  15,
+                         "contribution":  15,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     },
+                     {
+                         "source":  "lexical",
+                         "id":  "LONG_URL",
+                         "title":  "Long URL",
+                         "description":  "This URL is 115 characters long, longer than typical for a simple link.",
+                         "severity":  "LOW",
+                         "confidence":  1,
+                         "evidence":  [
+
+                                      ],
+                         "weight":  4,
+                         "contribution":  4,
+                         "mitigated":  false,
+                         "mitigationReason":  null
+                     }
+                 ],
+    "featureVector":  {
+                          "domain_age_days":  601,
+                          "has_whois":  1,
+                          "domain_age_is_new":  0,
+                          "vt_total_scanners":  0,
+                          "vt_positives":  0,
+                          "vt_positive_ratio":  0,
+                          "lexical_finding_count":  1,
+                          "has_brand_impersonation":  0,
+                          "has_typosquat":  0,
+                          "has_homograph":  0,
+                          "has_punycode":  0,
+                          "has_ip_host":  0,
+                          "has_shortener":  0,
+                          "has_suspicious_keyword":  0,
+                          "has_at_userinfo":  0,
+                          "has_dangerous_protocol":  0,
+                          "url_length":  115,
+                          "brand_in_host":  0,
+                          "is_legit_major_domain":  0,
+                          "has_https":  1,
+                          "tld_risk":  0,
+                          "html_risk_score":  100,
+                          "html_signal_count":  5,
+                          "html_has_password_field":  1,
+                          "html_has_external_form":  0,
+                          "html_has_brand_mismatch":  1,
+                          "html_has_obfuscation":  0,
+                          "correlation_count":  2,
+                          "has_dynamic_dns":  0
+                      },
+    "scoring":  {
+                    "mode":  "hybrid",
+                    "score":  100,
+                    "risk":  "CRITICAL",
+                    "heuristicScore":  100,
+                    "mlScore":  84.8,
+                    "mlProbability":  0.8482220310084613,
+                    "mlWeight":  0.5
+                },
+    "score":  100,
+    "risk":  "CRITICAL",
+    "explanation":  {
+                        "url":  "https://sso-auth.com/E.xjXDniSJ1p63JLY?/facebook_secure_account?id=759347502378427672987349826578129038123807394%22",
+                        "verdict":  {
+                                        "score":  100,
+                                        "riskLevel":  "CRITICAL",
+                                        "headline":  "This URL shows strong, corroborated signs of being malicious.",
+                                        "recommendedAction":  "Do not enter any credentials or personal information. Do not proceed.",
+                                        "confidence":  "HIGH",
+                                        "justification":  "Score driven primarily by Deceptive Brand Impersonation (FACEBOOK) (+45.5 risk points), supported by 7 other security observations.",
+                                        "totalIndicators":  8
+                                    },
+                        "reasons":  [
+                                        {
+                                            "source":  "correlation",
+                                            "severity":  "CRITICAL",
+                                            "confidence":  "HIGH",
+                                            "title":  "Deceptive Brand Impersonation (FACEBOOK)",
+                                            "evidence":  [
+                                                             "Visual or textual context implies identity representation of brand asset groups.",
+                                                             "Outbound domain parameters point back to independent host framework: \u0027Gandi SAS\u0027."
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "correlation",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Suspicious Credential Capture Point",
+                                            "evidence":  [
+                                                             "Page structure isolates user authentication inputs.",
+                                                             "Isolated structural elements mimic login behavior layout."
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Suspicious structural layout: Page contains exactly one isolated form component.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Credential Harvest Signal: Target form contains active password fields.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Critical Brand Mismatch: Brand token identity [FACEBOOK] is referenced, but host platform domain is unrelated.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Dynamic Redirection Signal: Inline scripts set browser window location configurations directly.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "html_analysis",
+                                            "severity":  "HIGH",
+                                            "confidence":  "MEDIUM",
+                                            "title":  "Anomalous Resource Sourcing: 100% of primary page assets load from external domains.",
+                                            "evidence":  [
+
+                                                         ]
+                                        },
+                                        {
+                                            "source":  "url_lexical",
+                                            "severity":  "LOW",
+                                            "confidence":  "HIGH",
+                                            "title":  "Long URL",
+                                            "evidence":  [
+                                                             "This URL is 115 characters long, longer than typical for a simple link."
+                                                         ],
+                                            "references":  [
+
+                                                           ]
+                                        }
+                                    ],
+                        "sourceSummary":  {
+                                              "dns":  {
+                                                          "checked":  true,
+                                                          "ipAddress":  "212.104.128.1"
+                                                      },
+                                              "whois":  {
+                                                            "checked":  true,
+                                                            "registrar":  "Gandi SAS",
+                                                            "domainAgeDays":  601,
+                                                            "ageDataReliable":  true
+                                                        },
+                                              "html":  {
+                                                           "checked":  true,
+                                                           "riskScore":  100,
+                                                           "threatFound":  true
+                                                       },
+                                              "virustotal":  {
+                                                                 "checked":  true,
+                                                                 "positives":  0,
+                                                                 "totalScanners":  0
+                                                             },
+                                              "urlLexical":  {
+                                                                 "checked":  true,
+                                                                 "observationCount":  1,
+                                                                 "registeredDomain":  "sso-auth.com"
+                                                             }
+                                          },
+                        "generatedAt":  "2026-11-23T17:10:00.312Z"
+                    },
+    "id":  "fbeaef4e-fb29-4d7c-b539-0691c5572976",
+    "isFavorite":  false,
+    "timestamp":  "2026-11-23T17:10:00.312Z"
+}

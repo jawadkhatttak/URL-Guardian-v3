@@ -1,0 +1,26 @@
+# Environment Variables — NEVER commit real API keys
+.env
+.env.local
+.env.production
+
+# SQLite database files (local runtime data — never commit scan history).
+# The trained model (data/model.json) and feature dataset are committed on purpose.
+*.db
+*.db-wal
+*.db-shm
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE / Editor artifacts
+.idea/
+.vscode/
+tempCodeRunnerFile.js
+
+# OS artifacts
+.DS_Store
+Thumbs.db
